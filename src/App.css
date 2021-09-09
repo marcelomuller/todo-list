@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: #282828;
   color: rgb(230, 230, 230);
-  /* font-family: "Poppins", sans-serif; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
 }
+
 header {
   font-size: 2rem;
 }
@@ -21,6 +22,24 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 640px) {
+  header {
+    font-size: 1.3rem;
+  }
+  form {
+    flex-direction: column;
+  }
+
+  form input {
+    max-width: 90%;
+  }
+
+  form button {
+    transform: translateX(180px) translateY(-53px);
+  }
+}
+
 form input,
 form button {
   padding: 0.5rem;
@@ -130,7 +149,7 @@ select {
 }
 /* Arrow */
 .select::after {
-  content: "\25BC";
+  content: '\25BC';
   position: absolute;
   top: 0;
   right: 0;
@@ -143,7 +162,7 @@ select {
 .animateLeft {
   transform: translateX(-20px);
   opacity: 0;
-  animation: animateLeft .3s forwards;
+  animation: animateLeft 0.3s forwards;
 }
 
 @keyframes animateLeft {
@@ -156,7 +175,7 @@ select {
 .trash-btn[animate='1'] {
   transform: translateX(20px);
   opacity: 0;
-  animation: animateRight .3s forwards;
+  animation: animateRight 0.3s forwards;
 }
 
 @keyframes animateRight {
