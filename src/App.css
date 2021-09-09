@@ -142,6 +142,7 @@ select {
 }
 select {
   color: #9d47ff;
+  background:rgb(230, 230, 230);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
   border-radius: 6px;
