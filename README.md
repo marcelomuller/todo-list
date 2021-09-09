@@ -1,7 +1,7 @@
 # Todo List
 
-This is a simple Todo app made with ReactJS. You can add all your daily activities, mark them as completed and delete them.
-You can also filter all your todos by status with the select feature.
+This is a simple Todo app made with ReactJS. You can add all your daily activities, mark them as completed and delete them.\
+You can also filter all your todos by status with the select feature.\
 All your todos are saved in the browser's local storage, so you can refresh and close the page as much you want, your todos will be ok.
 
 # Getting Started with Create React App
@@ -14,7 +14,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Install all dependencies to the directory.\
+Install all dependencies to the directory.
 
 Then, you can run:
 
