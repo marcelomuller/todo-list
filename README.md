@@ -4,7 +4,7 @@ This is a simple Todo app made with ReactJS. You can add all your daily activiti
 You can also filter all your todos by status with the select feature.\
 All your todos are saved in the browser's local storage, so you can refresh and close the page as much you want, your todos will be ok.
 
-# Getting Started with Create React App
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
