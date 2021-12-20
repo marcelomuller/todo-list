@@ -52,7 +52,7 @@ form button {
 }
 form button {
   color: #9d47ff;
-  background: #rgb(230, 230, 230);
+  background: rgb(230, 230, 230);
   cursor: pointer;
   border-radius: 6px;
   transition: all 0.3s ease;
