@@ -185,9 +185,3 @@ select {
     opacity: initial;
   }
 }
-
-/* Transition */
-
-/* .select:hover::after {
-  transform: scale(1.5);
-} */
